@@ -99,12 +99,15 @@ class DayData<T> {
   /// the date of the block which you want to edit
   final DateTime date;
 
+  ///[waffle_chart.DayData.DayData] is the constructor
   DayData({
     required this.isFilled,
     this.isFiller = false,
     this.value,
     required this.date,
   });
+
+  /// [waffle_chart.DayData.getMonthData] & [waffle_chart.DayData.getYearData] are the internal function need not to use by the end user
 
   static List<DayData> getMonthData(
     List<DayData> dataList,

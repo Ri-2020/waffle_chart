@@ -1,7 +1,8 @@
 name: waffle_chart
 description: "Easy way to create a streak chart or a different waffle charts"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Ri-2020/waffle_chart.git
+publish_to: "https://pub.dev"
 
 environment:
   sdk: ">=3.3.3 <4.0.0"

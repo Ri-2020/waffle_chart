@@ -8,6 +8,10 @@ part "./single_day_widget.dart";
 part "./monthly_chart_grid.dart";
 part "./yearly_chart_grid.dart";
 
+/// [waffle_chart] is the parent widget to be used
+///
+/// [waffle_chart.DayData] is use to provide the data points for the chart
+
 class WaffleChart extends StatelessWidget {
   final WaffleChartData chartData;
   final Function(
