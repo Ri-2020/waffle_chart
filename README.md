@@ -29,7 +29,7 @@ To start using the package, follow these steps:
 
 ```yaml
 dependencies:
-  streak_waffle_chart: latest_version
+  waffle_chart: latest_version
 ```
 
 1. **Import the package**: import package in the file you want to use waffle chart.
